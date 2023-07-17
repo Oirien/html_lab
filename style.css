@@ -1,14 +1,19 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.crown{
+    height: 40px;
+}
 .header{
     background-color: black;
     color: #ffffff;
     display: flex;
     justify-content: space-between;
-    border: black solid 10px;   
+    border: black solid 10px;
+    align-content: center;
 }
 
 .header__list{
@@ -17,14 +22,15 @@
 }
 
 .blue__section{
+    font-size: 140%;
     display: grid;
-    background-color: rgb(80, 80, 255);
+    background-color: #1d70b8;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: rgb(80, 80, 255) solid 100px;
+    border: #1d70b8 solid 50px;
     align-items: center;
-    row-gap: 50px;
-    padding-left: 175px;
+    row-gap: 20px;
+    padding-left: 320px;
 }
 
 .blue__foot{
@@ -41,7 +47,7 @@
     border-color: rgb(233, 232, 232);
     border: 500px;
     height: 300px;
-    padding-right: 800px;
+    padding-right: 610px;
 }
 
 
@@ -56,3 +62,34 @@
     text-decoration: underline;
 }
 
+.boxes{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center left;
+    gap: 5%;
+    margin-right: 20%;
+    margin-left: 20%;
+    row-gap: 20px;
+    
+}
+
+.boxhead{
+    text-decoration: underline;
+    color: blue;
+}
+
+.boxheader{
+    padding-left: 370px;
+    font-size: 220%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.boxgrid{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid lightgrey;
+    width: 30%;
+    font-size: 140%;
+    height: 140px;
+}
